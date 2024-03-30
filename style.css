@@ -25,6 +25,10 @@
     width: 350px;
 }
 
+.img_butters{
+    width: 400px;
+}
+
 @media only screen and (max-width: 900px){
     .responsivo-form{
         flex-direction: column;
