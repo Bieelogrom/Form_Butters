@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Cabin", sans-serif;
+}
+
+.section-formulario{
+    
+    height: 100vh;
+}
+
+.btn-form{
+    width: 100%;
+}
+
+.conteudo{
+    height: 100vh;
+}
+
+.tam-font{
+    font-size: 12px;
+}
+
+.form-campos{
+    width: 350px;
+}
+
+@media only screen and (max-width: 768px){
+    .responsivo-form{
+        flex-direction: column;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .conteudo{
+        height: 100%;
+    }
+
+}
