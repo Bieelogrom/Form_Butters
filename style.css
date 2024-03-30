@@ -25,15 +25,22 @@
     width: 350px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
     .responsivo-form{
         flex-direction: column;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .img_butters{
+        width: 100%;
+
     }
 
     .conteudo{
         height: 100%;
+        width: auto;
     }
 
 }
